@@ -11,7 +11,7 @@ vividData = {
 
 for key in vividData:
     item = key
-    buyPrice = round(vividData[key] * 1.12, 2)
+    buyPrice = round(vividData[key] * 1.12, 2) #Multiply to get EUR price
     
 
     # Build Url
@@ -37,4 +37,5 @@ for key in vividData:
     else:
         print('No deals found for "' + item + '".')
 
+    # Lets not get IP banned or stress their servers
     time.sleep(random.randint(30, 60))
