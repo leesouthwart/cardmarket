@@ -36,7 +36,7 @@ def checkPrice(setName):
             print('No deals found for "' + item + '".')
 
         # Lets not get IP banned or stress their servers
-        time.sleep(random.randint(15, 45))
+        time.sleep(random.randint(15, 60))
 
     f.close()
 
