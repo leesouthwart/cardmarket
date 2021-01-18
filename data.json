@@ -2,7 +2,24 @@
     "vivid-voltage" : {
         "Allister-V3": 23,
         "Rayquaza-Amazing-Burst": 14,
-        "Bea-V3": 30
+        "Bea-V3": 30,
+        "Pikachu-VMAX-G-Max-Volt-Tackle": 17,
+        "Talonflame-V-Fast-Flight-Bright-Wing-V2": 15,
+        "Galarian-Darmanitan-V-Freezing-Headbutt-Frozen-Slice-V2": 13,
+        "Zarude-V-Bind-Down-Jungle-Rising-V2": 15,
+        "Orbeetle-V-Strafe-Mysterious-Wave-V2": 14,
+        "Ampharos-V-Dazzle-Blast-Damaging-Spark-V2": 17,
+        "Alakazam-V-Zen-Spoon-Mind-Ruler": 8,
+        "Coalossal-V-Searing-Flame-Boulder-Crush-V2": 18,
+        "Aegislash-V-Slash-Sonic-Edge-V2": 16,
+        "Togekiss-V-White-Wind-Speed-Wing-V2": 13,
+        "Steelix-V-Raging-Hammer-Iron-Tackle-V2": 16,
+        "Allister-V2": 13,
+        "Celebi-Energy-Press-Amazing-Bloom": 10,
+        "Zacian-Metal-Armament-Amazing-Sword": 8,
+        "Jirachi-Amazing-Star": 14,
+        "Opal-V2": 12,
+        "Beauty-V2": 15
     },
 
     "rebel-clash" : {
@@ -14,5 +31,8 @@
         "Galarian-Perrserker-Metal-Claw" : 18,
         "Frosmoth-Aurora-Beam": 17,
         "Sonia-V3": 18
+    },
+    "SWSH-black-star-promos" : {
+        "Luxray-Raid-Head-Bolt": 3
     }
 }
