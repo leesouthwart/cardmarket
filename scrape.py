@@ -43,3 +43,4 @@ def checkPrice(setName):
 
 checkPrice('rebel-clash')
 checkPrice('vivid-voltage')
+checkPrice('SWSH-black-star-promos')
