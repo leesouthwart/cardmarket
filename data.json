@@ -1,9 +1,5 @@
 {
     "vivid-voltage" : {
-        "Allister-V3": 23,
-        "Rayquaza-Amazing-Burst": 14,
-        "Bea-V3": 30,
-        "Pikachu-VMAX-G-Max-Volt-Tackle": 17,
         "Talonflame-V-Fast-Flight-Bright-Wing-V2": 15,
         "Galarian-Darmanitan-V-Freezing-Headbutt-Frozen-Slice-V2": 13,
         "Zarude-V-Bind-Down-Jungle-Rising-V2": 15,
@@ -19,7 +15,11 @@
         "Zacian-Metal-Armament-Amazing-Sword": 8,
         "Jirachi-Amazing-Star": 14,
         "Opal-V2": 12,
-        "Beauty-V2": 15
+        "Beauty-V2": 15,
+        "Allister-V3": 23,
+        "Rayquaza-Amazing-Burst": 14,
+        "Bea-V3": 30,
+        "Pikachu-VMAX-G-Max-Volt-Tackle": 17
     },
 
     "rebel-clash" : {

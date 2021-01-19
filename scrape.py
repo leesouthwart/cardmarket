@@ -22,21 +22,22 @@ def checkPrice(setName):
         container = soup.find('div', {'class': 'price-container'})
 
         #Format price
-        price = container.span.text
-        price = price.replace(',','.')
-        price = float(price[:-2])
+        if container:
+            price = container.span.text
+            price = price.replace(',','.')
+            price = float(price[:-2])
 
-        #Calculate difference between price and buy price
-        difference = buyPrice - price
-        difference = round(difference, 2)
+            #Calculate difference between price and buy price
+            difference = buyPrice - price
+            difference = round(difference, 2)
 
-        if price <= buyPrice:
-            print('Price for item "' + item + '" is lower than its buy price by ' + str(difference) + '. Currently listed at ' + str(price) + '.')
-        else:
-            print('No deals found for "' + item + '".')
+            if price <= buyPrice:
+                print('Price for item "' + item + '" is lower than its buy price by ' + str(difference) + '. Currently listed at ' + str(price) + '.')
+            else:
+                print('No deals found for "' + item + '".')
 
-        # Lets not get IP banned or stress their servers
-        time.sleep(random.randint(15, 60))
+            # Lets not get IP banned or stress their servers
+            time.sleep(random.randint(15, 60))
 
     f.close()
 
